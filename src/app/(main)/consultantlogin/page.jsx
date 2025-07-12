@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
-import Heading from '../components/atoms/Heading';
+import Heading from '../../components/atoms/Heading';
 import { useRouter } from 'next/navigation';
-import { useUser } from '../UserContext';
+import UserContext from '../../pages/UserContext';
 
 export default function LoginForm() {
   const router = useRouter();

@@ -4,13 +4,13 @@ import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebook, FaTwitter, FaWhatsapp } from "react-icons/fa";
-import PopularCourses from '@/app/components/organisms/PopularCourses';
-import CourseCard from '@/app/components/molecules/CourseCard';
-import Button from '@/app/components/atoms/Button';
-import Container from '@/app/components/atoms/Container';
-import Heading from '@/app/components/atoms/Heading';
-import CourseDetailForm from '@/app/components/organisms/CourseDetailForm';
-import courses from '@/app/utils/courses';
+import PopularCourses from '../../components/organisms/PopularCourses';
+import CourseCard from '../../components/molecules/CourseCard';
+import Button from '../../components/atoms/Button';
+import Container from '../../components/atoms/Container';
+import Heading from '../../components/atoms/Heading';
+import CourseDetailForm from '../../components/organisms/CourseDetailForm';
+import courses from '../../utils/courses';
 
 const CourseDetails = () => {
   const params = useParams();

@@ -1,14 +1,14 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import Container from '../components/atoms/Container';
-import courses from '../utils/courses';
+import Container from '../../components/atoms/Container';
+import courses from '../../utils/courses';
 import Image from 'next/image';
-import Button from '../components/atoms/Button';
+import Button from '../../components/atoms/Button';
 import Link from 'next/link';
-import Heading from '../components/atoms/Heading';
-import Paragraph from '../components/atoms/Paragraph';
-import CourseDetailForm from '../components/organisms/CourseDetailForm';
+import Heading from '../../components/atoms/Heading';
+import Paragraph from '../../components/atoms/Paragraph';
+import CourseDetailForm from '../../components/organisms/CourseDetailForm';
 const CourseDetails = () => {
   const searchParams = useSearchParams();
   const title = searchParams.get('title');
